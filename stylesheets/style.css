@@ -1,5 +1,5 @@
 body {
-	background: #f9e933; 
+	background: #f9e933;
 	font-family: 'Droid sans';
 	font-size: 100%;
 }
@@ -17,40 +17,45 @@ h1, h2, h3, h4 {
 	font-size: 120%;
 }
 
-header, main, footer { 
+header, main, footer {
 	min-width: 855px;
 }
 
-header .container, main .container, footer .container { 
+header .container, main .container, footer .container {
 	max-width: 855px;
 	margin: auto;
 }
 
-header { 
-	background: white; 
+header {
+	background: white;
 	overflow: auto;
 	margin-bottom: 3px;
 	padding: 10px;
 }
+
 header h1 {
 	float: left;
 	width: 570px;
 }
+
 header nav {
 	float: right;
 	width: 285px;
 }
-main { 
-	background: white; 
+
+main {
+	background: white;
 	overflow: auto;
 	padding: 20px;
 }
+
 main .main_block {
 	float: left;
 	width: 570px;
 }
+
 main .image {
-	float: right;	
+	float: right;
 	width: 285px;
 }
 
@@ -72,7 +77,7 @@ main h2 {
 
 main h3 {
 	margin-top: 10px;
-	margin-bottom: 5px;	
+	margin-bottom: 5px;
 }
 
 footer {
@@ -84,8 +89,18 @@ footer .contact {
 	float: left;
 	width: 570px;
 }
- 
+
 footer .sitemap {
-	float: right;	
+	float: right;
 	width: 285px;
+}
+
+.tabs a span {
+	display: inline-block;
+	border-radius: 5px 5px 0 0;
+	width: 100px;
+	margin-right: 10px;
+	text-align: center;
+	background: #ddd;
+	padding: 5px;
 }
